@@ -19,8 +19,12 @@ Moja_lista3 = Moja_lista+Moja_lista2
 Moja_lista4 = Moja_lista*5
 print(Moja_lista3)
 print(Moja_lista[:2])
-print(Moja_lista[6:])
-print(Moja_lista[6:2:6])
+print(Moja_lista[7:])
+print(Moja_lista[1:3:5])
 print(Moja_lista[::-1])
+
+
+
+
 
 
