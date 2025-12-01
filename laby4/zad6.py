@@ -3,4 +3,4 @@ ilosc = 0
 for owoce in owoce:
     if owoce == 'banan':
         ilosc+=1
-print(ilosc)
+print("ilość bananów:",ilosc)
