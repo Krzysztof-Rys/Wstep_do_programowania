@@ -7,17 +7,11 @@ stopnie = (
  "Major",
  "Pułkownik",
 )
-ilosc_stopnii = 0
-for i in stopnie:
-    ilosc_stopnii+=1
-
-print(stopnie.index("Major"))
+ilosc_stopnii = len(stopnie)
+Major_index = stopnie.index("Major")
+Pułkownik_wstepowanie = "Pułkownik" in stopnie
 
 
-
-for i in stopnie:
-    if "Major" in stopnie:
-        Pułkownik_wstepowanie = True
-    else:
-        Pułkownik_wstepowanie = False
-print(Pułkownik_wstepowanie)
+print("ilość stopnie:",ilosc_stopnii)
+print("index majora:",Major_index)
+print("czy występuje pułkownik:",Pułkownik_wstepowanie)
